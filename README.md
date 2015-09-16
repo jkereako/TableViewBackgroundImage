@@ -1,5 +1,5 @@
 # Table view image background
-Uses and IBDesignable to easiyl set a background image to table views.
+Uses a simple IBDesignable to set a background image to table views.
 
 <img src="https://raw.githubusercontent.com/jkereako/tableview-background-image/master/screen-cap.png" alt="Table view background image" width="320" height="568" />
 
