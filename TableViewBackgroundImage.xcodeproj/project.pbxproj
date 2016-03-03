@@ -35,11 +35,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		624C5E511C8879AF0052A837 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				627CDDC11BA9124400865F19 /* Assets.xcassets */,
+				627CDDC31BA9124400865F19 /* LaunchScreen.storyboard */,
+				627CDDBE1BA9124400865F19 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		624C5E521C8879BD0052A837 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				627CDDC61BA9124400865F19 /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
 		627CDDAE1BA9124400865F19 = {
 			isa = PBXGroup;
 			children = (
-				627CDDB91BA9124400865F19 /* TableViewBackgroundImage */,
 				627CDDB81BA9124400865F19 /* Products */,
+				624C5E511C8879AF0052A837 /* Resources */,
+				627CDDB91BA9124400865F19 /* Source */,
+				624C5E521C8879BD0052A837 /* SupportFiles */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,17 +71,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		627CDDB91BA9124400865F19 /* TableViewBackgroundImage */ = {
+		627CDDB91BA9124400865F19 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				627CDDBA1BA9124400865F19 /* AppDelegate.swift */,
-				627CDDBE1BA9124400865F19 /* Main.storyboard */,
-				627CDDC11BA9124400865F19 /* Assets.xcassets */,
-				627CDDC31BA9124400865F19 /* LaunchScreen.storyboard */,
-				627CDDC61BA9124400865F19 /* Info.plist */,
 				627CDDCC1BA9127D00865F19 /* TableViewBackgroundImage.swift */,
 			);
-			path = TableViewBackgroundImage;
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +111,6 @@
 				TargetAttributes = {
 					627CDDB61BA9124400865F19 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = X4GGMZ2HNY;
 					};
 				};
 			};
@@ -149,6 +164,7 @@
 				627CDDBF1BA9124400865F19 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		627CDDC31BA9124400865F19 /* LaunchScreen.storyboard */ = {
@@ -157,6 +173,7 @@
 				627CDDC41BA9124400865F19 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -249,7 +266,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TableViewBackgroundImage/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/SupportFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexisdigital.TableViewBackgroundImage;
@@ -261,7 +279,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TableViewBackgroundImage/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/SupportFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexisdigital.TableViewBackgroundImage;

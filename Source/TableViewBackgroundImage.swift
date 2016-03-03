@@ -19,7 +19,7 @@ class DesignableTableView: UITableView {
     didSet {
       if let image = backgroundImage {
         let backgroundImage = UIImageView(image: image)
-        backgroundImage.contentMode = UIViewContentMode.ScaleToFill
+        backgroundImage.contentMode = .ScaleToFill
         backgroundImage.clipsToBounds = false
         self.backgroundView = backgroundImage
       }
