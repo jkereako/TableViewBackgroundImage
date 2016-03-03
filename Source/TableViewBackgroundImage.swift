@@ -15,11 +15,11 @@ class DesignableTableView: UITableView {
 
   :see: http://stackoverflow.com/questions/5825397/uitableview-background-image#32215518
   */
-  @IBInspectable var backgroundImage: UIImage? {
+  @IBInspectable var image: UIImage? {
     didSet {
-      if let image = backgroundImage {
+      if let image = self.image {
         let backgroundImage = UIImageView(image: image)
-        backgroundImage.contentMode = .ScaleToFill
+        backgroundImage.contentMode = .ScaleAspectFill
         backgroundImage.clipsToBounds = false
         self.backgroundView = backgroundImage
       }

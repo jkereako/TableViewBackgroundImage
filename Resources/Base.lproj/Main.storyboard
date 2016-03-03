@@ -75,7 +75,7 @@
                             </tableViewSection>
                         </sections>
                         <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="image" keyPath="backgroundImage" value="Background"/>
+                            <userDefinedRuntimeAttribute type="image" keyPath="image" value="Background"/>
                         </userDefinedRuntimeAttributes>
                         <connections>
                             <outlet property="dataSource" destination="4WP-Zx-xto" id="fG7-2f-xgb"/>
@@ -89,6 +89,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Background" width="639" height="1136"/>
+        <image name="Background" width="2048" height="1536"/>
     </resources>
 </document>
