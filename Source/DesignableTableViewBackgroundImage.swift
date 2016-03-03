@@ -8,8 +8,7 @@
 
 import UIKit
 
-@IBDesignable
-class DesignableTableView: UITableView {
+@IBDesignable class DesignableTableViewBackgroundImage: UITableView {
 
   /**
 
@@ -25,5 +24,4 @@ class DesignableTableView: UITableView {
       }
     }
   }
-
 }

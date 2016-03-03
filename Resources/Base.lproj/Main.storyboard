@@ -7,8 +7,8 @@
         <!--Table View Controller-->
         <scene sceneID="VWI-5h-zCy">
             <objects>
-                <tableViewController id="4WP-Zx-xto" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="mX0-0x-c34" customClass="DesignableTableView" customModule="TableViewBackgroundImage" customModuleProvider="target">
+                <tableViewController id="4WP-Zx-xto" customClass="TableViewController" customModule="TableViewBackgroundImage" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="mX0-0x-c34" customClass="DesignableTableViewBackgroundImage" customModule="TableViewBackgroundImage" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
